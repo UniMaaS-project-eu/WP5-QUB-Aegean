@@ -1,0 +1,41 @@
+{
+  "aircraft": ["A1", "A2", "A3", "A4", "A5"],
+  "flying_invariants": {
+    "A1": 4,
+    "A2": 5,
+    "A3": 6,
+    "A4": 5,
+    "A5": 7
+  },
+  "tasks": [
+    {
+      "guard": [3, 7],
+      "timer_invariants": {
+        "A1": 7, "A2": 7, "A3": 7, "A4": 7, "A5": 7
+      }
+    },
+    {
+      "guard": [8, 18],
+      "timer_invariants": {
+        "A1": 18, "A2": 18, "A3": 18, "A4": 18, "A5": 18
+      }
+    },
+    {
+      "guard": [15, 35],
+      "timer_invariants": {
+        "A1": 35, "A2": 35, "A3": 35, "A4": 35, "A5": 35
+      }
+    },
+    {
+      "guard": [30, 60],
+      "timer_invariants": {
+        "A1": 60, "A2": 60, "A3": 60, "A4": 60, "A5": 60
+      }
+    }
+  ],
+  "crew_count": 3,
+  "hangar_count": 3,
+  "lifespan": 365
+}
+
+
