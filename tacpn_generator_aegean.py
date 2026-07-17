@@ -253,7 +253,8 @@ class TACPNGenerator:
         min_fly = min(fly_values)
         max_fly = max(fly_values)
         # Entry guard: [lower, upper] where lower ~ 40% of min flying inv
-        self.entry_guard_lo = max(1, int(math.floor(min_fly * 0.4)))
+        self.entry_guard_lo = 0
+        # self.entry_guard_lo = max(1, int(math.floor(min_fly * 0.4)))
         self.entry_guard_hi = max_fly
 
         for i, task in enumerate(self.tasks):

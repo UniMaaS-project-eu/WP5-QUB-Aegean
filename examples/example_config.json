@@ -1,0 +1,39 @@
+{
+    "aircraft": ["A1", "A2"],
+    "flying_invariants": {
+        "A1": 145,
+        "A2": 145
+    },
+    "tasks": [{
+            "guard": [100, 145],
+            "timer_invariants": {
+                "A1": 104,
+                "A2": 103
+            }
+        },
+        {
+            "guard": [100, 145],
+            "timer_invariants": {
+                "A1": 112,
+                "A2": 137
+            }
+        },
+        {
+            "guard": [100, 145],
+            "timer_invariants": {
+                "A1": 125,
+                "A2": 125
+            }
+        },
+        {
+            "guard": [100, 145],
+            "timer_invariants": {
+                "A1": 130,
+                "A2": 141
+            }
+        }
+    ],
+    "crew_count": 100,
+    "hangar_count": 1,
+    "lifespan": 145
+}
