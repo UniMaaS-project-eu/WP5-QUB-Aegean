@@ -99,12 +99,12 @@ def xml_hlinitialmarking_aircraft_all(count=1):
 
 def xml_hlinitialmarking_individual(aircraft_names):
     text = " + ".join(f"1'{a}" for a in aircraft_names)
-    subterms = "\n".join(
-        f'      <subterm>\n'
-        f'{indent(_numberof(1, f"<useroperator declaration=\"{a}\"/>"), 4)}\n'
-        f'      </subterm>'
-        for a in aircraft_names
-    )
+    blocks = []
+    for a in aircraft_names:
+        inner = '<useroperator declaration="' + a + '"/>'
+        body = indent(_numberof(1, inner), 4)
+        blocks.append('      <subterm>\n' + body + '\n      </subterm>')
+    subterms = "\n".join(blocks)
     return (
         f'<hlinitialMarking>\n'
         f'  <text>{text}</text>\n'
