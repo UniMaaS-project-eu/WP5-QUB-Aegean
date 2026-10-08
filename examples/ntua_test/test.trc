@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<trace>
+  <delay>3</delay>
+  <transition id="ComposedModel_TAPN1_T_enter__0">
+    <token age="3" place="ComposedModel_Shared_P_flying__1"/>
+    <token age="3" place="ComposedModel_Shared_P_ground_capacity"/>
+  </transition>
+  <transition id="ComposedModel_TAPN1_T_maint_aircraft_2_P1">
+    <token age="3" place="ComposedModel_Shared_P_timer_1__1"/>
+    <token age="0" place="ComposedModel_TAPN1_P_bay__1"/>
+    <token age="3" place="ComposedModel_Shared_P_crew"/>
+  </transition>
+  <delay>1</delay>
+  <transition id="ComposedModel_TAPN1_T_return_aircraft_2_P1">
+    <token age="1" place="ComposedModel_TAPN1_P_inter_aircraft_2_P1"/>
+  </transition>
+  <transition id="ComposedModel_TAPN1_T_exit__0">
+    <token age="0" place="ComposedModel_TAPN1_P_bay__1"/>
+  </transition>
+  <transition id="ComposedModel_TAPN1_T_enter">
+    <token age="4" place="ComposedModel_Shared_P_flying__0"/>
+    <token age="0" place="ComposedModel_Shared_P_ground_capacity"/>
+  </transition>
+  <transition id="ComposedModel_TAPN1_T_maint_aircraft_1_P1">
+    <token age="4" place="ComposedModel_Shared_P_timer_1__0"/>
+    <token age="4" place="ComposedModel_Shared_P_timer_2__0"/>
+    <token age="0" place="ComposedModel_TAPN1_P_bay__0"/>
+    <token age="0" place="ComposedModel_Shared_P_crew"/>
+  </transition>
+  <delay>1</delay>
+  <transition id="ComposedModel_TAPN1_T_return_aircraft_1_P1">
+    <token age="1" place="ComposedModel_TAPN1_P_inter_aircraft_1_P1"/>
+  </transition>
+  <transition id="ComposedModel_TAPN1_T_exit">
+    <token age="0" place="ComposedModel_TAPN1_P_bay__0"/>
+  </transition>
+  <delay>15</delay>
+  <transition id="ComposedModel_TAPN1_T_enter">
+    <token age="15" place="ComposedModel_Shared_P_flying__0"/>
+    <token age="15" place="ComposedModel_Shared_P_ground_capacity"/>
+  </transition>
+  <transition id="ComposedModel_TAPN1_T_maint_aircraft_1_P2">
+    <token age="20" place="ComposedModel_Shared_P_timer_3__0"/>
+    <token age="20" place="ComposedModel_Shared_P_timer_4__0"/>
+    <token age="0" place="ComposedModel_TAPN1_P_bay__0"/>
+    <token age="15" place="ComposedModel_Shared_P_crew"/>
+  </transition>
+  <delay>5</delay>
+  <transition id="ComposedModel_TAPN1_T_return_aircraft_1_P2">
+    <token age="5" place="ComposedModel_TAPN1_P_inter_aircraft_1_P2"/>
+  </transition>
+  <transition id="ComposedModel_TAPN1_T_exit">
+    <token age="0" place="ComposedModel_TAPN1_P_bay__0"/>
+  </transition>
+  <transition id="ComposedModel_TAPN1_T_enter__0">
+    <token age="21" place="ComposedModel_Shared_P_flying__1"/>
+    <token age="0" place="ComposedModel_Shared_P_ground_capacity"/>
+  </transition>
+  <transition id="ComposedModel_TAPN1_T_maint_aircraft_2_P2">
+    <token age="25" place="ComposedModel_Shared_P_timer_2__1"/>
+    <token age="25" place="ComposedModel_Shared_P_timer_3__1"/>
+    <token age="25" place="ComposedModel_Shared_P_timer_4__1"/>
+    <token age="0" place="ComposedModel_TAPN1_P_bay__1"/>
+    <token age="0" place="ComposedModel_Shared_P_crew"/>
+  </transition>
+  <delay>5</delay>
+  <transition id="ComposedModel_TAPN1_T_return_aircraft_2_P2">
+    <token age="5" place="ComposedModel_TAPN1_P_inter_aircraft_2_P2"/>
+  </transition>
+  <transition id="ComposedModel_TAPN1_T_exit__0">
+    <token age="0" place="ComposedModel_TAPN1_P_bay__1"/>
+  </transition>
+  <delay>15</delay>
+</trace>

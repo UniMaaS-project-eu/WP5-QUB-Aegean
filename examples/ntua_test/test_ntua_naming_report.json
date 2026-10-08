@@ -1,0 +1,13 @@
+{
+  "mode": "verify",
+  "verdict": "feasible",
+  "horizon": 45,
+  "end_time": 45,
+  "aircraft": 2,
+  "tasks": 4,
+  "projects": 4,
+  "hangar_capacity": 1,
+  "violation": null,
+  "trace": "test_ntua_naming.trc",
+  "naming": "ntua"
+}

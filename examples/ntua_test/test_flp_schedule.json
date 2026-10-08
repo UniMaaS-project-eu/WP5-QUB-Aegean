@@ -1,0 +1,22 @@
+{
+    "Schedule": [
+        {
+            "PID": "aircraft_1",
+            "P": [
+                ["task1", "task2"],
+                ["task3", "task4"]
+            ],
+            "T": [4, 20],
+            "D": [1, 5]
+        },
+        {
+            "PID": "aircraft_2",
+            "P": [
+                ["task1"],
+                ["task2", "task3", "task4"]
+            ],
+            "T": [3, 25],
+            "D": [1, 5]
+        }
+    ]
+}

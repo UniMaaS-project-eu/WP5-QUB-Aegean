@@ -1,0 +1,131 @@
+{
+  "aircraft": [
+    "aircraft_1",
+    "aircraft_2"
+  ],
+  "aircraft_ids": {
+    "aircraft_1": "aircraft_1",
+    "aircraft_2": "aircraft_2"
+  },
+  "flying_invariants": {
+    "aircraft_1": 45,
+    "aircraft_2": 45
+  },
+  "entry_guard": [
+    0,
+    45
+  ],
+  "bay_invariant": 0,
+  "tasks": [
+    {
+      "id": "task1",
+      "guard": [
+        0,
+        45
+      ],
+      "timer_invariants": {
+        "aircraft_1": 4,
+        "aircraft_2": 3
+      },
+      "interval_invariants": {
+        "aircraft_1": 104,
+        "aircraft_2": 103
+      },
+      "overdue_invariant": 45
+    },
+    {
+      "id": "task2",
+      "guard": [
+        0,
+        45
+      ],
+      "timer_invariants": {
+        "aircraft_1": 12,
+        "aircraft_2": 37
+      },
+      "interval_invariants": {
+        "aircraft_1": 112,
+        "aircraft_2": 137
+      },
+      "overdue_invariant": 45
+    },
+    {
+      "id": "task3",
+      "guard": [
+        0,
+        45
+      ],
+      "timer_invariants": {
+        "aircraft_1": 25,
+        "aircraft_2": 25
+      },
+      "interval_invariants": {
+        "aircraft_1": 125,
+        "aircraft_2": 125
+      },
+      "overdue_invariant": 45
+    },
+    {
+      "id": "task4",
+      "guard": [
+        0,
+        45
+      ],
+      "timer_invariants": {
+        "aircraft_1": 30,
+        "aircraft_2": 41
+      },
+      "interval_invariants": {
+        "aircraft_1": 130,
+        "aircraft_2": 141
+      },
+      "overdue_invariant": 45
+    }
+  ],
+  "crew_count": 1,
+  "hangar_count": 1,
+  "lifespan": 45,
+  "single_task_blocks": false,
+  "projects": {
+    "aircraft_1": [
+      {
+        "tasks": [
+          "task1",
+          "task2"
+        ],
+        "duration": 1,
+        "start": 4
+      },
+      {
+        "tasks": [
+          "task3",
+          "task4"
+        ],
+        "duration": 5,
+        "start": 20
+      }
+    ],
+    "aircraft_2": [
+      {
+        "tasks": [
+          "task1"
+        ],
+        "duration": 1,
+        "start": 3
+      },
+      {
+        "tasks": [
+          "task2",
+          "task3",
+          "task4"
+        ],
+        "duration": 5,
+        "start": 22
+      }
+    ]
+  },
+  "adapter": {
+    "tdc": 0,
+    "warnings": []
+  }
+}

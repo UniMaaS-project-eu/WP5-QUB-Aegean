@@ -1,0 +1,82 @@
+{
+    "fleet": [{
+            "aircraftID": "aircraft_1",
+            "events": [{
+                    "taskID": "task1",
+                    "max_util": 104,
+                    "curr_util": 100,
+                    "importance": 1,
+                    "duration": 1
+                },
+                {
+                    "taskID": "task2",
+                    "max_util": 112,
+                    "curr_util": 100,
+                    "importance": 1,
+                    "duration": 1
+
+                },
+                {
+                    "taskID": "task3",
+                    "max_util": 125,
+                    "curr_util": 100,
+                    "importance": 10,
+                    "duration": 5
+                },
+                {
+                    "taskID": "task4",
+                    "max_util": 130,
+                    "curr_util": 100,
+                    "importance": 1,
+                    "duration": 1
+
+                }
+            ],
+            "fpd": 1
+
+        },
+        {
+            "aircraftID": "aircraft_2",
+            "events": [{
+                    "taskID": "task1",
+                    "max_util": 103,
+                    "curr_util": 100,
+                    "importance": 1,
+                    "duration": 1
+
+                },
+                {
+                    "taskID": "task2",
+                    "max_util": 137,
+                    "curr_util": 100,
+                    "importance": 1,
+                    "duration": 1
+
+                },
+                {
+                    "taskID": "task3",
+                    "max_util": 125,
+                    "curr_util": 100,
+                    "importance": 10,
+                    "duration": 5
+
+                },
+                {
+                    "taskID": "task4",
+                    "max_util": 141,
+                    "curr_util": 100,
+                    "importance": 1,
+                    "duration": 1
+
+                }
+            ],
+            "fpd": 1
+        }
+    ],
+    "blackout-days": [30, 35],
+    "max_projects": 2,
+    "hangar_capacity": 1,
+    "sim_days": 45,
+    "threshold": 10
+
+}
