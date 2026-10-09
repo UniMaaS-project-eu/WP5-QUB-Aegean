@@ -10,7 +10,7 @@ generator config and, optionally, runs the whole TACPN step in one call:
   add --tapn    -> also test.tapn                      (open in TAPAAL)
   add --verify  -> also test.trc, test_tacpn_report.json (exit code 0 / 1)
 
-Mapping (NTUA's answers of 2 Oct 2026, plus the post-reset interval):
+Mapping:
   aircraft             schedule PIDs, characters outside [A-Za-z0-9_] replaced
                        by '_'; original ids kept in "aircraft_ids" for reports
   tasks                every task scheduled for some aircraft, plus tasks that
